@@ -1,22 +1,33 @@
 # Installing Sage
 
-## With an Active Anaconda Distribution (Linux, macOS, Windows)
+## With an Active Anaconda Distribution (Linux, macOS, Windows Subsystem for Linux)
 
 ### 0. Setup
 
 First, make sure you have a working ```conda``` installation. In a Unix terminal, run:
 
-```$ which conda```
-
-Or in Windows, run:
-
-```> gcm conda```
+```
+$ which conda
+```
 
 If this command returns a path, you are good to go. If not, stop here and install ```conda``` before continuing, or use one of the other options.
 
 ### 1. Install ```mamba```
 
 ```mamba``` is an alternative package manager for Anaconda that replaces the ```conda``` command. It is faster in many cases than the default ```conda```, and importantly, makes it much easier to install ```sage```.
+
+Start by adding the ```conda-forge``` channel to Anaconda:
+
+```
+conda config --add channels conda-forge
+```
+
+Next, set the channel-priority setting to strict:
+
+```
+conda config --set channel_priority strict
+```
+Last, run the install:
 
 ```
 conda install mamba
