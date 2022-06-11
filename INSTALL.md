@@ -33,6 +33,8 @@ Last, run the install:
 conda install mamba
 ```
 
+__Note:__ If this install fails, it may be because your version of Anaconda is not compatible with mamba. This can open a can of worms, especially if you do not want to switch Anaconda distributions. If this happens to you, reach out to Philip to explore solutions for your particular setup.
+
 ### 2. Install ```sage``` (and useful packages) in a new environment
 
 ```
