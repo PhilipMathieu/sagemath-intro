@@ -4,20 +4,16 @@
     "collectionId": "ds5020sagemath",
     "pages": [
         {
-            "title": "Installation",
-            "url": "INSTALL.md"
-        },
-        {
             "title": "Linear Algebra",
-            "url": "linear_algebra.ipynb"
+            "url": "linear_algebra.html"
         },
         {
             "title": "Variables",
-            "url": "variables.ipynb"
+            "url": "variables.html"
         },
         {
             "title": "Probability",
-            "url": "probability.ipynb"
+            "url": "probability.html"
         }
     ]
 }
