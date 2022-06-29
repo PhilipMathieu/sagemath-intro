@@ -1,0 +1,23 @@
+{
+    "title": "DS5020 SageMath Intro", // Title of the collection
+    "author": "Philip Mathieu", // Author(s)
+    "collectionId": "ds5020sagemath", // An identifier, used to identify data from this site
+    "pages": [ // An array of page entries
+        {
+            "title": "Installation", // Short title of the page
+            "url": "INSTALL.md" // location of the page relative to the position of the manifest.json file
+        },
+        {
+            "title": "Linear Algebra",
+            "url": "linear_algebra.ipynb"
+        },
+        {
+            "title": "Variables",
+            "url": "variables.ipynb"
+        }
+        {
+            "title": "Probability",
+            "url": "probability.ipynb"
+        }
+    ]
+}

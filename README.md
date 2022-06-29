@@ -1,5 +1,10 @@
 # An Introduction to SageMath for Linear Algebra and Probability
 
+## What's New
+
+- [Experimental serverless site](https://dahn-research.eu/nbsite/?path=https%3A%2F%2Fphilipmathieu.github.io%2Fsagemath-intro%2F)
+- Added [basic notebook on variables](variables.ipynb)
+
 ## 0. Installation
 
 See [INSTALL.md](INSTALL.md).
