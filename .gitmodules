@@ -1,0 +1,3 @@
+[submodule "nbsite"]
+	path = nbsite
+	url = https://github.com/ingodahn/nbsite
