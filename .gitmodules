@@ -1,3 +1,6 @@
 [submodule "nbsite"]
 	path = nbsite
 	url = https://github.com/ingodahn/nbsite
+[submodule "nbplayer"]
+	path = nbplayer
+	url = https://github.com/ingodahn/nbplayer
